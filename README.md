@@ -1,4 +1,4 @@
-# Kasku — Web + WA Sync (Unofficial Baileys)
+# Kasku — Web + WA Sync 
 
 Lokasi: `D:\projekan\kasku` — Style 1 Minimalist Fintech, Next.js + Tailwind + Supabase Realtime.
 
@@ -21,7 +21,6 @@ Parser WA: `keluar 35k makan siang`, `masuk 500rb gaji`, `keluar 1.2jt #transpor
 - Baileys tidak bisa di Vercel — bot tetap jalan di laptop (`npm run bot:dev`) atau deploy worker di Railway/Render.
 
 ## Troubleshooting
-- Web error `Missing Supabase env` -> isi `.env.local`
 - Transaksi tidak masuk -> cek RLS policy di schema sudah run
 - Bot tidak konek -> hapus `wa-bot/auth_info` dan scan ulang
 
